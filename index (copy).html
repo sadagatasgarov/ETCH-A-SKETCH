@@ -2,11 +2,29 @@
 <html>
 <head>
 <style>
-  
+  div, input, body{
+    display: block;  
+
+  }
+  #button_part{
+      display: flex;
+flex-direction: row;
+align-content: center;
+justify-content: center;
+  }
+body{
+    background-color: brown;
+}
+
 </style>
 
 </head>
 <body>
+    <div id="button_part">
+        <input type="number" class="number">
+        <input id="klik" type="button" value="Reset" onclick="divCizim(number)">
+        </div>
+    
     <div id="container"></div>
 
 <script src="test.js"></script>
